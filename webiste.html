@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+			<head>
+			<meta charset="utf-8">
+				<title>Website</title>
+				<link rel="stylesheet" type="text/css" href="style.css">	
+				<link rel="stylesheet" type="text/css" href="css/960_12_col.css">
+				<link rel="stylesheet" type="text/css" href="css/text.css">
+				<link rel="stylesheet" type="text/css" href="css/reset.css">
+				<link rel="stylesheet"  href="font-awesome-4.7.0/css/font-awesome.min.css">
+				<link href="https://fonts.googleapis.com/css?family=Peddana" rel="stylesheet">
+				<link href="https://fonts.googleapis.com/css?family=Tinos" rel="stylesheet">
+				<link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">
+
+
+<!-- script to add the images,adding images in variables -->
+
+					<script type="text/javascript">
+						var image1 = new Image()
+						image1.src = "pics/1.jpg"
+						var image2 = new Image()
+						image2.src = "pics/2.jpg"
+						var image3 = new Image()
+						image3.src = "pics/4.jpg"
+						var image4 = new Image()
+						image4.src = "pics/master1.jpg"
+					</script>
+
+					 <!-- <script>
+						 $(window).on("scroll", function() {
+						    if ($(this).scrollTop() > 100) {
+						       $("header").css("background","#252525");
+						    }
+						    else {
+						       $("header").css("background","#fff");
+						    }
+						 });
+						 </script> -->
+
+
+			</head>
+			<body>
+			<!-- start of header -->
+					<header id="start"> 
+			<!-- start of avigator -->
+						<nav id = "start1">
+							
+								<div class="a">
+										<div class="container_12 try">  
+												
+											<div class="grid_2">
+											
+											     <img id ="logo1" src ="pics/taj.jpg" alt = "logo">	
+
+											</div>
+
+											<div class="grid_2">					
+												 <a href = "https://in.linkedin.com/" target="new" style="color : black"> OUR HOTEL</a>
+												 
+											</div>
+
+											<div class="grid_1">					
+											
+												 <a href = "https://in.linkedin.com/" target="new" style="color : black"> TAJ </a> 
+											</div>
+
+											
+											<div class="grid_3">	
+											
+											
+										 	 <a href = "https://in.linkedin.com/" target="new" style="color : black"> BOOK </a>
+										 	
+										 	 <a href = "https://in.linkedin.com/" target= "new" style="color : black"> MENU </a>	
+											</div>
+											
+											<div class="grid_4" >
+												<div class="search2"> 
+											     <!-- <span id ="search1">Search</span> -->
+											     <button id="search" type="submit">Search</button>
+												
+
+												 <input type="text" name="name">
+												 </div>
+											</div>
+									 </div>
+								</div>
+						</nav>
+					</header>
+
+				<!-- header end -->
+
+			<div class="imagemoving">
+				<!-- script for changing the picture, in loops -->
+						<img id ="slider" src="pics/master1.jpg" alt = "master image" />
+						
+							<script type="text/javascript">
+			       				 var step=1;
+			        			function slideit()
+							        {
+						            document.images.slider.src = eval("image"+step+".src");
+						            if(step<2)
+						                step++;
+							            else
+						                step=1;
+							            setTimeout("slideit()",2000);
+							        }
+						        slideit();
+							</script>
+					</div>
+
+				<!-- end of script -->
+
+
+					<div class="container_12 ">  
+												
+				<!-- Start of container and grid into grid_12 -->
+								<article class="grid_12 welcome"> 
+									    
+												 <h3> WELCOME TO TAJ
+												 </h3>
+												 <h2>
+													        		Quintessentially Indian in its fabric, Taj Hotels Resorts and Palaces is recognized the world over for delivering a unique flavour of hospitality that offers world-class refinement while remaining deeply rooted in its local heritage. With over 100 hotels in 62 locations, Taj offers guests the refined luxury of heritage, the effortlessly efficient service and amenities and a local experience with the assurance of quality.
+												</h2>	
+												     
+								</article> 
+												<!-- end .grid_12 -->
+								<div class="clear">
+													
+								</div> 				 
+				<!-- divide the grid into 3 small grid of size 4 and enter 3 colums in each grid -->
+								
+								<div class="grid_12 brand">
+									<h1>
+									OUR BRANDS
+									</h1>
+								</div>
+
+								
+												 
+								<div class="grid_4 logo"> 
+												     
+												        <img id="logo10" src="pics/house1.jpg" alt ="home picture">
+												    	<img id ="logo2" src="pics/l1.png" alt="logo1">
+
+														<h2 class="hoteldefination">
+												        		Spanning world-renowned landmarks, modern business hotels, idyllic beach resorts, authentic Rajput palaces and rustic safari lodges, each Taj hotel reinterprets the tradition of hospitality in a refreshingly modern way to create unique experiences and lifelong memories.
+														</h2>
+												        	
+												    
+								</div> 
+												<!-- end .grid_2 -->
+												 
+												<!-- ... -->
+												 
+								<div class="grid_4"> 
+												     
+												        <img id = "logo11" src="pics/house2.jpg" alt ="home picture">
+												    	<img id = "logo3" src="pics/l2.jpg" alt="logo2">
+
+														<h2 class="hoteldefination">
+												        		Work hard and play hard. Relax and energize. Ideate and confer. Evolve and transform. Revel in a spirit that presents the normal with an unexpected twist. Stylish and sophisticated, Vivanta by Taj delivers experiences with imagination, energy and efficiency.
+														</h2>						        	
+												     
+								</div> 
+												<!-- end .grid_11 -->
+												 
+								<div class="grid_4"> 
+												     
+												        <img id ="logo12" src="pics/6.jpg" alt ="home picture">
+												        <img id = "logo4" src="pics/l3.jpg" alt="logo3">
+												        
+
+														<h2 class="hoteldefination">
+				    
+												        
+												        		The Gateway Hotels and Resorts are designed for the modern traveller. Which is why we have a 24X7 attitude across services like dining and fitness. So when you feel like a quick bite at 1 am or a heart pumping jog at 4 am, we’ve got you covered.
+
+														</h2>				        	
+												     
+								</div> 
+												<!-- end .grid_13 -->
+												 
+								<div class="clear">
+													
+								</div> 
+								
+								<div class="grid_12 brand">
+									<h1>
+									HAPPENING AT TAJ
+									</h1>
+								</div>
+
+								<div class="grid_6 HAPPENING" > 
+								
+												     
+												        <img id = "logo13" src="pics/F1.jpg" alt ="home picture">
+
+												        <h1 id = "seperate3"> MEGHAULI SERAI, A TAJ SAFARI LODGE
+												        </h1>
+												        
+												        <h2>
+												        		Taj Safaris expands their footprint, from the tiger heartland in Central India to the “Heart of the Jungle” in Nepal. The legendary Taj Safaris continues the wildlife journey with it’s newest Jungle lodge in the iconic Chitwan National Park, Nepal.
+												        </h2>
+												     
+								</div> 
+												<!-- end .grid_1 -->
+												 
+								<div class="grid_6"> 
+												      
+												     <img id ="logo14" src="pics/F2.jpg" alt ="home picture">
+												     <H1 id="seperate2">WELCOME TO TAJ SWARNA, AMRITSAR!
+												     </H1>
+												     
+												     <h2>
+												        		The city's newest landmark. A stylish and contemporary five star hotel in the heart of Amritsar.
+												     </h2>
+												       <h1 id ="seperate"> BUDDHA TEMPLE,UTTARAKHAND!
+												     </h1>
+												     
+												     <h2>
+												        		It is one of the best place for visit in wonderful city Dehradun, Uttarkhand.
+												     </h2>
+												     
+								</div> 
+												<!-- end .grid_23 -->
+												 
+								<div class="clear">
+													
+								</div> 				 
+											
+
+						</div>	
+						<div id = "space_footer">
+							
+
+						</div>
+
+
+								<footer class="footer1">	 <!-- footer for contact details -->
+							        <div class="container_12">
+								        	<div class="grid_2">
+								        				<a name = "footer2" href = "https://in.linkedin.com/" target= "new" style="color : black"> ABOUT US </a>
+								        	</div>
+								        	<div class="grid_2">
+								        				<a name = "footer2" href = "https://in.linkedin.com/" target= "new" style="color : black"> CARRERS </a>
+								        	</div>
+								        	<div class="grid_2">
+								        				<a name = "footer2" href = "https://in.linkedin.com/" target= "new" style="color : black"> SITE MAP </a>
+								        	</div>
+								        	<div class="grid_2">
+									                    <a class="facebook" href="https://www.facebook.com" target="new"><i class="fa facebook fa-facebook-square fa-3x" aria-hidden="true"></i></a>
+									        </div>
+								        	<div class="grid_2">
+									                    
+									                    <a class="instagram" href="https://www.instagram.com"  target="new"><i class="fa instagram fa-instagram fa-3x" aria-hidden="true"></i>
+									        </div>
+								        	<div class="grid_2">
+									                    <a class="twitter" href="https://www.twitter.com" target="new"><i class="fa twitter fa-twitter-square fa-3x" aria-hidden="true"></i></a>
+									        </div>
+								                    
+							                    
+							                    
+						
+					             
+									</div>
+											<!-- Join us on 
+												<a href = "https://in.linkedin.com/" style="color : blue">	Facebook</a><br>
+												<abbr title="Email Address"><strong>Email:</strong></abbr> rajat@gmail.com
+												 -->									
+								</footer>
+					
+	</body>
+</html>

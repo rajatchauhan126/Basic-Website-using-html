@@ -1,0 +1,264 @@
+body
+{
+	margin: 0px;
+	top: 0px;
+	padding-top: 00px;
+}
+
+#start
+{
+	font-size :26px;
+	font-family: 'Peddana', serif;
+	/*display: inline;*/
+	margin : 0px;
+	position: fixed;
+	background-color: #E8F2F1;
+	width: 100%;
+	padding-top: 00px;
+}
+
+#logo1
+{
+	height: 70px;
+	width: 70px;
+}
+
+#masterimg
+{
+	 width="100%" height="600";
+
+
+}
+
+.happenining h1
+{
+	padding-top: 30px;
+	padding-bottom: 30px;
+
+}
+
+.hoteldefination
+{
+margin-top: 20px;
+
+}				    
+
+.happen h1
+{
+	font-family: 'Tinos', serif;
+	text-align: center;
+	margin-bottom: 40px;
+	margin-top: 80px;
+	font-size: 30px;
+}											 
+
+.logo a
+{
+	
+	text-align: center;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+#logo10
+{
+	height: 200px;
+	width: 300px;
+}
+
+#logo11
+{
+	height: 200px;
+	width: 300px;
+}
+#logo12
+{
+	height: 200px;
+	width: 300px;
+}
+
+
+#logo13
+{
+	height: 200px;
+	width: 450px;
+	margin-bottom: 20px;
+
+	/*height = "200" width = "450" style="margin-bottom: 25px;"*/
+}
+
+#logo14
+{
+	height: 200px;
+	width: 450px;
+	margin-bottom: 20px;
+
+/*height = "200" width = "450" style="margin-bottom: 20px;"*/
+	
+}
+
+
+#slider{
+	margin : 0px;
+	top:0px;
+	width: 100%;
+	height: 600px;
+/*	width="100%" height="600" */
+}
+
+.name
+{
+	
+	padding-right: 1px;
+}
+.paddin
+{
+
+	/*float: right;*/
+	/*padding-right: 1px;*/
+}
+
+
+/*.search2{
+	padding-top: 10px;
+
+}*/
+
+.brand h1
+{
+	font-family: 'Tinos', serif;
+	text-align: center;
+	margin-bottom: 40px;
+	margin-top: 80px;
+	font-size: 30px;
+}
+
+#seperate3
+{
+	font-size: 20px;
+}
+
+#seperate
+{
+	font-size: 20px;
+	background-color: #ccffe6;
+}
+
+
+#seperate2
+{
+	font-size: 20px;
+	background-color: #ffff80;
+
+}
+
+.welcome h1{
+	font-family: 'Tinos', serif;
+	text-align: center;
+	margin-bottom: 40px;
+	margin-top: 40px;
+	font-size: 30px;
+}
+.welcome h3
+{
+	font-family: 'Tinos', serif;
+	text-align: center;
+	margin-bottom: 40px;
+	margin-top: 40px;
+	font-size: 30px;
+}
+
+.footer1
+{
+
+	background-color: #E8F2F1;
+}
+
+#space_footer
+{
+	margin-bottom: 10%;
+}
+
+#search1
+{
+
+	color: black;
+	float: left;
+	/*padding-top: 10px;*/
+}
+
+#logo1{
+
+	float: left;
+	margin-left: 00px;
+	margin-bottom: 10px;
+	padding-left: 0%;
+}
+
+#logo2{
+	
+	float: center;
+	margin-left: 1%;
+	margin-bottom: 10%;
+	padding-left: 5%;
+	padding-top: 10%;
+}
+#logo3{
+
+	float: center;
+	margin-left: 20%;
+	margin-bottom: 7%;
+	padding-left: 5%;
+	padding-top: 10%;
+}
+#logo4{
+	float: center;
+	margin-left: 20%;
+	margin-bottom: 7%;
+	padding-left: 5%;
+	padding-top: 10%;
+}
+
+
+.b{
+	
+	float: right;
+	margin-bottom: 10px;
+	margin-right: 50px;
+
+}
+label
+{	
+	padding-right: 40px;
+}
+
+.l1
+{
+	
+	font-size :26px;
+	/*float: right;*/
+	padding-right: 50px;	
+	text-align: center;
+	font-family: 'Tinos', serif;
+	 background-color: brown;
+}
+#display_label
+{
+	padding-right: 20px;
+}
+
+.search1
+{
+	color: rgb(101,221,111);
+}
+
+.div1
+{
+	text-align: center;
+}
+
+.imagemoving
+	{
+		margin-top:0px;
+	}
+
